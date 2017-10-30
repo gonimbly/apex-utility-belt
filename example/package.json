@@ -1,6 +1,6 @@
 {
   "name": "aub-example",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "Example of a client org consuming AUB packages",
   "main": "index.js",
   "repository": "gonimbly/apex-utility-belt",
@@ -17,5 +17,8 @@
     "aub-fluent-iterable": "1.0.0",
     "fflib-apex-common-domain": "1.0.0"
   },
-  "sfdcDependencies": ["aub-fluent-iterable", "fflib-apex-common-domain"]
+  "sfdcDependencies": [
+    "aub-fluent-iterable",
+    "fflib-apex-common-domain"
+  ]
 }

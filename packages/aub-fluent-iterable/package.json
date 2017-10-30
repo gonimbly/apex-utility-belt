@@ -1,6 +1,6 @@
 {
   "name": "aub-fluent-iterable",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "Guava-style FluentIterable for Apex",
   "main": "package.json",
   "repository": "gonimbly/apex-utility-belt",
