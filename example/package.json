@@ -13,7 +13,7 @@
     "add-packages": "nimblyci add-packages"
   },
   "dependencies": {
-    "@gonimbly/nimblyci": "0.0.6",
+    "@gonimbly/nimblyci": "^0.1.0",
     "aub-fluent-iterable": "1.0.0",
     "fflib-apex-common-domain": "1.0.0"
   },

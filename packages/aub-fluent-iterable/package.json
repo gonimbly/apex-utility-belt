@@ -10,6 +10,6 @@
     "test": "nimblyci test src"
   },
   "devDependencies": {
-    "@gonimbly/nimblyci": "^0.0.6"
+    "@gonimbly/nimblyci": "^0.1.0"
   }
 }
