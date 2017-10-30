@@ -1,0 +1,17 @@
+{
+  "name": "apex-utility-belt",
+  "version": "0.0.0",
+  "description": "Yet another Apex utility library",
+  "main": "index.js",
+  "repository": "gonimbly/apex-utility-belt",
+  "author": "Jon Crenshaw <jdcrensh@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["example", "packages/*"],
+  "scripts": {
+    "publish": "lerna publish"
+  },
+  "dependencies": {
+    "lerna": "^2.4.0"
+  }
+}

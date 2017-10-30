@@ -1,0 +1,15 @@
+{
+  "name": "fflib-apex-common-domain",
+  "version": "1.0.0-0",
+  "description": "FinancialForce Apex Common SObjectDomain",
+  "main": "package.json",
+  "repository": "gonimbly/apex-utility-belt",
+  "author": "Andrew Fawcett <afawcett@financialforce.com>",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "nimblyci test src"
+  },
+  "devDependencies": {
+    "@gonimbly/nimblyci": "^0.0.6"
+  }
+}

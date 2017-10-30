@@ -1,0 +1,21 @@
+{
+  "name": "aub-example",
+  "version": "1.0.0-0",
+  "description": "Example of a client org consuming AUB packages",
+  "main": "index.js",
+  "repository": "gonimbly/apex-utility-belt",
+  "author": "Jon Crenshaw <jdcrensh@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "deploy": "nimblyci deploy src",
+    "test": "nimblyci test src",
+    "add-packages": "nimblyci add-packages"
+  },
+  "dependencies": {
+    "@gonimbly/nimblyci": "0.0.6",
+    "aub-fluent-iterable": "1.0.0",
+    "fflib-apex-common-domain": "1.0.0"
+  },
+  "sfdcDependencies": ["aub-fluent-iterable", "fflib-apex-common-domain"]
+}
